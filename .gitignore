@@ -9,3 +9,9 @@
 *.jpg
 *.gz
 *.zip
+
+*tfevents*
+*.ckpt
+sshkey*
+*.pt
+*hparams.yaml
