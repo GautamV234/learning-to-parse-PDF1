@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python3 train.py --train_data result/puretext/train/ --valid_data  result/puretext/val/ --batch_ratio 1 --Transformation None --FeatureExtraction None --SequenceModeling None --Prediction None --Transformer --TransformerModel=vitstr_tiny_patch16_224 --imgH 224 --imgW 224 --manualSeed=$RANDOM  --sensitive

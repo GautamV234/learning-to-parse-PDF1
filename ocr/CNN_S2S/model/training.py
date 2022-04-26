@@ -17,7 +17,7 @@ class Trainer(object):
         self.lr_scheduler = lr_scheduler
         self.train_loader = train_loader
         self.val_loader = val_loader
-
+        self.args = args
         self.step = 0
         self.epoch = init_epoch
         self.total_step = (init_epoch-1)*len(train_loader)
