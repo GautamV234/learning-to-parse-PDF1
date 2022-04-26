@@ -1,10 +1,10 @@
 #  ES 654 - Learning to parse PDF
 
-_Gautam Vashishtha_ 
+_Gautam Vashishtha_   
 _Krishnam Hasija_  
-_Praveen Venkatesh_ 
-_Rwik Rana_ 
-_Shreyshi Singh_ 
+_Praveen Venkatesh_  
+_Rwik Rana_  
+_Shreyshi Singh_   
 
 The repo contains all the relevant code for the testing the results in the final report.
 
