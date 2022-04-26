@@ -9,7 +9,7 @@ orig_image = image.copy()
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) # convert the image to gray scale
 blur = cv2.GaussianBlur(gray, (5, 5), 0) # Add Gaussian blur
-edged = cv2.Canny(blur, 75, 200) # Apply the Canny algorithm to find the edges
+edged = cv2.Canny(blur, 75, 200) # Apply canny edge detection algorithm to find the edges
 
 contours, _ = cv2.findContours(edged, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
 contours = sorted(contours, key=cv2.contourArea, reverse=True)
